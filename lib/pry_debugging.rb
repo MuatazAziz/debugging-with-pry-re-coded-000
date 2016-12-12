@@ -1,4 +1,5 @@
+required 'pre'
 def plus_two(num)
 	num + 2
-	num
+	binding.pre
 end
